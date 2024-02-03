@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "grateful-package-issues",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1.4.549 project, rendered via quarto render (see _quarto.yml) About this site\nlibrary(grateful)\nlibrary(knitr)\nlibrary(yaml)\nlibrary(rmarkdown)"
+  },
+  {
+    "objectID": "about.html#packages",
+    "href": "about.html#packages",
+    "title": "About",
+    "section": "Packages",
+    "text": "Packages\n\nR-packages loaded in the manuscript-generating session, compiling this report and its analyses. Internally loaded dependencies of any explicitly loaded package are not included.\n\n\n\n\nTable 1: All Packages loaded within the project. dependencies=false,tidyverse=true - citepackages\n\n\n\n\n\n\nPackage\nVersion\nCitation\n\n\n\n\nbase\n4.3.2\nR Core Team (2023)\n\n\nknitr\n1.45\nXie (2014); Xie (2015); Xie (2023)\n\n\nrenv\n1.0.3\n(renv?)\n\n\nrmarkdown\n2.25\nXie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2023)\n\n\nyaml\n2.3.8\nGarbett et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\nTable 2: Packages loaded in session. dependencies=false,tidyverse=true - citepackages\n\n\n\n\n\n\nPackage\nVersion\nCitation\n\n\n\n\nbase\n4.3.2\nR Core Team (2023)\n\n\nknitr\n1.45\nXie (2014); Xie (2015); Xie (2023)\n\n\nrenv\n1.0.3\n(renv?)\n\n\nrmarkdown\n2.25\nXie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2023)\n\n\nyaml\n2.3.8\nGarbett et al. (2023)\n\n\n\n\n\n\n\n\n\nsessionInfo()\n\nR version 4.3.2 (2023-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64 (64-bit)\nRunning under: Windows 11 x64 (build 22631)\n\nMatrix products: default\n\n\nlocale:\n[1] LC_COLLATE=German_Germany.utf8  LC_CTYPE=German_Germany.utf8   \n[3] LC_MONETARY=German_Germany.utf8 LC_NUMERIC=C                   \n[5] LC_TIME=German_Germany.utf8    \n\ntime zone: Europe/Berlin\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices datasets  utils     methods   base     \n\nother attached packages:\n[1] rmarkdown_2.25 yaml_2.3.8     knitr_1.45     grateful_0.2.4\n\nloaded via a namespace (and not attached):\n [1] compiler_4.3.2    fastmap_1.1.1     cli_3.6.2         htmltools_0.5.7  \n [5] tools_4.3.2       rstudioapi_0.15.0 jsonlite_1.8.8    xfun_0.41        \n [9] digest_0.6.34     rlang_1.1.3       renv_1.0.3        evaluate_0.23"
+  }
+]

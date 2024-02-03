@@ -1,0 +1,1 @@
+{"entries":[{"order":{"section":[0,1,0,0,0,0,0],"number":2},"key":"tbl-PackageVersions2","caption":"Packages loaded in session. dependencies=false,tidyverse=true - citepackages"},{"order":{"section":[0,1,0,0,0,0,0],"number":1},"key":"tbl-PackageVersions","caption":"All Packages loaded within the project. dependencies=false,tidyverse=true - citepackages"}],"headings":["packages"]}

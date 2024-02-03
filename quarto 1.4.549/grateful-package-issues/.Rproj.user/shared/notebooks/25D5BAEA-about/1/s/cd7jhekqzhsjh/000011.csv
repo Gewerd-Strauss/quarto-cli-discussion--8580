@@ -1,0 +1,3 @@
+"0","library(grateful)"
+"0","pkgs <- get_pkgs_info(output = ""table"", out.dir = "".pandoc"",cite.tidyverse = T,pkgs = ""Session"",include.RStudio = T,dependencies = F)"
+"0","pkgs2 <- cite_packages(output = ""table"", out.dir = "".pandoc"",cite.tidyverse = T,pkgs = ""All"",include.RStudio = T,dependencies = F)"

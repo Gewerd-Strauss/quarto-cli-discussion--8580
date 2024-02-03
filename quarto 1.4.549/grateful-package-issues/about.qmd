@@ -1,0 +1,49 @@
+---
+title: "About"
+---
+1.4.549 project, rendered via `quarto render` (see `_quarto.yml`)
+About this site
+```{r}
+library(grateful)
+library(knitr)
+library(yaml)
+library(rmarkdown)
+```
+
+
+## Packages {.appendix}
+
+```{r Package_Setup, message=FALSE,warning=FALSE,echo=F,include=F}
+pkgs <- cite_packages(output = "table", out.dir = ".pandoc", cite.tidyverse = T, pkgs = "All", include.RStudio = T, dependencies = F)
+pkgs2 <- cite_packages(output = "table", out.dir = ".pandoc", cite.tidyverse = T, pkgs = "Session", include.RStudio = T, dependencies = F)
+```
+
+_R-packages loaded in the manuscript-generating session, compiling this report and its analyses. Internally loaded dependencies of any explicitly loaded package are not included._
+
+
+
+```{r}
+#| label: tbl-PackageVersions
+#| tbl-id: 'PackageVersions'
+#| echo: FALSE
+#| warning: FALSE
+#| cache: FALSE
+kable(pkgs, caption = "All Packages loaded within the project. dependencies=false,tidyverse=true - citepackages")
+# kable(pkgs2,caption = "Explicity loaded R-packages used for compiling this report and its analyses. Internally loaded dependencies of any explicitly loaded package are not included.")
+```
+
+```{r}
+#| label: tbl-PackageVersions2
+#| tbl-id: 'PackageVersions'
+#| echo: FALSE
+#| warning: FALSE
+#| cache: FALSE
+# kable(pkgs,caption = "Explicity loaded packages. Internally loaded dependencies are not shown for brevity. - get_pkgs_info")
+kable(pkgs, caption = "Packages loaded in session. dependencies=false,tidyverse=true - citepackages")
+```
+
+
+
+```{r}
+sessionInfo()
+```
