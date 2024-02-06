@@ -3,9 +3,9 @@ title: "reprex_new_standalone_overwriting_cites"
 format:
     pdf:
         keep-md: true
+        keep-tex: true
     html:
         keep-md: true
-        keep-tex: true
     docx:
         keep-md: true
 bibliography: "grateful-refs.bib"

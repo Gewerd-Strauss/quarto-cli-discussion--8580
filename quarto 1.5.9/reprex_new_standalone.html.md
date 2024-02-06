@@ -3,9 +3,9 @@ title: "reprex_new_standalone_overwriting_cites"
 format:
     pdf:
         keep-md: true
+        keep-tex: true
     html:
         keep-md: true
-        keep-tex: true
     docx:
         keep-md: true
 bibliography: "grateful-refs.bib"
@@ -16,9 +16,9 @@ bibliography: "grateful-refs.bib"
 (table [-@tbl-PackageVersions2])
 This is a playground for Quarto 1.5.9.
 Standalone file, rendered in RStudio via `Render Current Document`.
+<!-- follow-up, cf. comment https://github.com/quarto-dev/quarto-cli/discussions/8580#discussioncomment-8380758 -->
 
 ---
-
 
 
 
@@ -202,8 +202,8 @@ typeof(cites)
 :::
 
 
-
 ---
+
 
 caption via Cell label `#| tbl-cap`
 <!-- caption via `knitr(...,caption = "caption")` -->
